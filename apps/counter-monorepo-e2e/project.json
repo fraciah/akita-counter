@@ -1,0 +1,10 @@
+{
+  "name": "counter-monorepo-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/counter-monorepo-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["counter-monorepo"],
+  "// targets": "to see all targets run: nx show project counter-monorepo-e2e --web",
+  "targets": {}
+}
