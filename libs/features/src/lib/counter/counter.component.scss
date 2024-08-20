@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+.holder {   
+    .title{
+        text-align: center;
+        font-size: 2rem;
+        padding: 20px;
+    }
+
+    .counter {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        .btn {
+            color: white;
+            padding: 5px 15px;
+            border-radius: 10px;
+            font-size: 1.5rem;
+            cursor: pointer;
+
+            &.sub {
+                background: rgb(230, 105, 105);
+            }
+            &.add {
+                background: rgb(94, 176, 94);
+            }
+        }
+        
+        .count {
+            font-size: 2rem;
+        }
+    }
+}
